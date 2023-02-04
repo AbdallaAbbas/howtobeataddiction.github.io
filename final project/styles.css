@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500&display=swap');
+  body.en {
+    font-family: "Alexandria";
+    font-style: normal;
+    background: rgb(17,24,39);
+    margin-right: auto;
+
+margin-left: auto;
+  }
+
+  body.ar {
+    font-family: "Changa";
+    background: rgb(17,24,39);
+    margin-right: auto;
+
+margin-left: auto;
+  }
+  a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+a {
+  color: rgb(229,231,235);
+}
+
+.sec1{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  background: rgb(17,24,39);
+  width: 100%;
+ 
+}
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 3%;
+
+}
+#supertitle {
+    color: rgb(229,231,235);
+    cursor: default;
+    transition: 0.3s ease 0s;
+    font-weight: 500;
+    
+}
+#supertitle:hover {
+  color:rgb(186, 129, 99);
+  
+}
+#supertitle a:link {
+  text-decoration: none; 
+}
+
+.lang {
+  background-color: rgba(186, 129, 99, 1);
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s ease 0s;
+  padding: 9px 3%;
+  width: auto;
+}
+.lang:hover{
+  background-color: rgba(186, 129, 99, 0.8);
+}
+
+
+li
+{
+
+background-position: 100% .4em;
+padding-right: .6em;
+margin: 1em 0;
+}
+
+
+#topsection {
+    
+  padding: 16px;
+  margin-top: 70px;
+  
+
+}
+#addiction
+{
+    color: rgb(229,231,235);
+    text-align: center;
+    padding: auto;
+    
+}
+.placeholder
+{
+  margin: auto;
+  align-items: center;
+  padding: 20px;
+  white-space: normal;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='8' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(221, 39%, 11%, 1)'/><path d='M-.02 22c8.373 0 11.938-4.695 16.32-9.662C20.785 7.258 25.728 2 35 2c9.272 0 14.215 5.258 18.7 10.338C58.082 17.305 61.647 22 70.02 22M-.02 14.002C8.353 14 11.918 9.306 16.3 4.339 20.785-.742 25.728-6 35-6 44.272-6 49.215-.742 53.7 4.339c4.382 4.967 7.947 9.661 16.32 9.664M70 6.004c-8.373-.001-11.918-4.698-16.3-9.665C49.215-8.742 44.272-14 35-14c-9.272 0-14.215 5.258-18.7 10.339C11.918 1.306 8.353 6-.02 6.002'  stroke-width='1.5' stroke='hsla(47, 100%, 50%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-140,0)' fill='url(%23a)'/></svg>")
+}
+.collapsibleen {
+    background-color: rgb(28, 37, 50);
+    color: rgb(229,231,235);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    transition: 0.2s;
+  }
+  .cp {
+    color: rgb(229,231,235);
+
+  }
+  .active, .collapsibleen:hover {
+    background-color:rgb(186, 129, 99);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(31,41,55);
+    color: rgb(138,146,159)
+  }
+
+.collapsibleen-alcohol {
+    background-color: rgb(28, 37, 50);
+    color: rgb(229,231,235);
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+  }
+.content.alcohol 
+{
+  padding: 0 18px;
+  
+  background-color: rgb(138,146,159);
+  color: rgb(138,146,159)
+
+}
+.collapsibleen-alcohol-ar {
+  background-color: rgb(28, 37, 50);
+  color: rgb(229,231,235);
+  padding: 18px;
+  border: none;
+  text-align: right;
+  outline: none;
+  font-size: 18px;
+}
+
+
+
+  .collapsiblear {
+    background-color: rgb(28, 37, 50);
+    color: rgb(229,231,235);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 15px;
+    transition: 0.2s;
+  }
+  .cpar {
+    color: rgb(229,231,235);
+    text-align: right;
+  }
+  .active, .collapsiblear:hover {
+    background-color:rgb(186, 129, 99);
+  }
+  
+  .contentar {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(31,41,55);
+    color: rgb(138,146,159);
+    text-align: right;
+  }
+
+  table {
+    table-layout: fixed ;
+    margin-right: auto;
+ 
+margin-left: auto;
+width: 100%;
+text-align: center;
+  }
+    
+
+
+.botsec {
+  padding: 16px;
+  margin-top: 70px;
+ 
+}
+.lang-1 {
+  background-color: rgba(186, 129, 99, 1);
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s ease 0s;
+  padding: 9px 3%;
+  width: 9px 8.3px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.lang-1:hover{
+  background-color: rgba(186, 129, 99, 0.8);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ol.ar {
+    direction: rtl;
+}
+
