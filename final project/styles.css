@@ -23,6 +23,8 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 a {
   color: rgb(229,231,235);
+  padding:22px;
+  margin:-22px;
 }
 
 .sec1{
