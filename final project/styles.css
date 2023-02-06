@@ -225,3 +225,14 @@ ol.ar {
     direction: rtl;
 }
 
+footer {
+  text-align: center;
+  padding-top: 30px;
+ 
+}
+footer a{
+  align-items: right;
+}
+footer h5{
+  color: antiquewhite;
+}
